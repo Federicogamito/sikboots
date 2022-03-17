@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '@mui/material/Button';
 
 function NavBar() {
 
@@ -11,10 +12,10 @@ function NavBar() {
             />
           </div>
             <ul className={'navbar'}>
-              <li><button>Home</button></li>
-              <li><button>Productos</button></li>
-              <li><button>Nosotros</button></li>
-              <li><button>Contacto</button></li>
+              <li><Button>Home</Button></li>
+              <li><Button>Productos</Button></li>
+              <li><Button>Nosotros</Button></li>
+              <li><Button variant="outlined">Contacto</Button></li>
             </ul>
         </header>
     )
