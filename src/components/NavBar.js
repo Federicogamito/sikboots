@@ -1,15 +1,13 @@
 import React from 'react'
 import Button from '@mui/material/Button';
+import logo from "../imagesfede/zapalogo.jpg"
 
 function NavBar() {
 
     return(
         <header className="main-header">
         <div className='container-logo'> 
-         <img
-            src=".../imagesfede/zapalogo.jpg"
-            classname="img-header"
-            />
+        <img src={ logo } />
           </div>
             <ul className={'navbar'}>
               <li><Button>Home</Button></li>
