@@ -1,0 +1,20 @@
+header.main-header {
+    width: 100%;
+    display: flex;
+    padding: 10px 30px;
+    box-shadow: 1px 10px 60px #3a3a3a1f;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  ul.navbar {
+    list-style: none;
+    display: flex;
+  }
+  li {margin-right: 30px;}
+  
+  img {
+    width: 100%;
+  }
+  .container-logo {width: 80px;}
+  

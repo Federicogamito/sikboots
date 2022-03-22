@@ -1,0 +1,14 @@
+/* estilos cards */
+
+.card-item {
+    border: 1px solid slategray;
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px slategray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+  }
