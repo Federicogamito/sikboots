@@ -1,4 +1,7 @@
 import carrito from "./carrito.png"
+import React,{ useState } from 'react'
+
+
 const CartWidget = () => {
     return (
         <div>
