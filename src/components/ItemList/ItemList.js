@@ -51,7 +51,14 @@ const ItemList = () => {
             price: 20000,
             image: 'jordan1seafoam.jpg',
             stock: 20
-    }]
+        },
+        {
+            id: 8,
+            title:'Nike LDWaffle x Sacai',
+            price: 50000,
+            image: 'ldwaffle.jpg',
+            stock: 20
+        }]
 
     const [products, setProducts] = useState ([])
 
