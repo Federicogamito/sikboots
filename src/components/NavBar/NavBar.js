@@ -15,7 +15,7 @@ function NavBar() {
               <li><Button>Home</Button></li>
               <li><Button>Productos</Button></li>
               <li><Button>Nosotros</Button></li>
-              <li><Button variant="outlined">Contacto</Button></li>
+              <li><Button className='botonNavbar' variant="outlined" >Contacto</Button></li>
             </ul>
             <CartWidget />
         </header>
