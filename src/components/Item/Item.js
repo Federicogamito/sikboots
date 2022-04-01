@@ -3,7 +3,7 @@ import './Item.css'
 import ItemCount from '../ItemCount/ItemCount';
 
 
-export default function Card({ data }) {
+export default function Card ({ data }) {
     const { title, price, stock, image} = data
     const [ count, setCount ] = useState(50);
 
@@ -13,17 +13,12 @@ export default function Card({ data }) {
          <img className='imagencatalogo' src={`./${image}`} alt={`./${image}`} />
 
          <div className='container-card-data'>
-         <h2>{title}</h2>
-         <p>{price}</p>
-         <ItemCount stock={stock} />
-         <p></p>
+         <h2 className='tituloCard'>{title}</h2>
+         <p className='precioCard'>{price}</p>
+         <ItemCount stock={stock}/>
+         <p className='stockCard'></p>
          <button>Agregar al carrito</button>
         </div>
     </div>
 )
 }
-
-
-
-
-

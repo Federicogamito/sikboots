@@ -5,12 +5,22 @@
     width: calc(25% - 20px);
     height: 850px;
     margin-top: 20px;
+    margin-bottom: 50px;
     box-shadow: 1px 1px 5px slategray;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     float: left;
     margin-left: 15px;
+    overflow: hidden;
+    transition: all 300ms;
+    background-color: rgb(87, 87, 87);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-item:hover {
+    transform: scale(1.1);
     overflow: hidden;
   }
 
@@ -19,10 +29,20 @@
     height: 70%;
     border-radius: 5px;
     box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
-    transition: all 300ms;
     position: relative;
   }
 
-  .imagencatalogo:hover {
-    transform: scale(1.1);
-  }
+.tituloCard{
+color: white;
+text-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+
+.precioCard{
+color: white;
+text-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+
+}
+
+.stockCard {
+  color: white;
+}

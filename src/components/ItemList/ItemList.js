@@ -76,7 +76,6 @@ const ItemList = () => {
 
     return (
        <div className='container-cards'>
-           <h2 className='catalogo'>Catálogo</h2>
         {products.map( (product) => {
            const { id } = product
             return(
@@ -86,7 +85,6 @@ const ItemList = () => {
        </div>
     )
 }
-
 
 export default ItemList;
 

@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar.js'
-import ItemListContainer from './components/ItemList/ItemList';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 
 function App(props) {
   return (
@@ -8,7 +9,9 @@ function App(props) {
       <NavBar/>
       <ItemListContainer>
       </ItemListContainer>
-    </div>
+      <ItemDetailContainer/>
+      </div>
+
   );
 }
 
