@@ -1,8 +1,8 @@
 import React from 'react'
 import Button from '@mui/material/Button';
 import logo from "./zapalogo.jpg"
-import './NavBar.css'
-import CartWidget from '../CartWidget/CartWidget'
+import './styles/NavBar.css'
+import CartWidget from './CartWidget'
 
 function NavBar() {
 

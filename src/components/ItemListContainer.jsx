@@ -1,7 +1,6 @@
-import React,{useState, useEffect} from 'react'
-import Item from "../Item/Item"
-import ItemList from '../ItemList/ItemList'
-import './ItemListContainer.css'
+import React from 'react'
+import ItemList from './ItemList'
+import './styles/ItemListContainer.css'
 
 const ItemListContainer = () => {
 return(
@@ -11,7 +10,7 @@ return(
     <ItemList />
 </section>
 
-)
-}
+);
+};
 
 export default ItemListContainer;

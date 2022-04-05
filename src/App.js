@@ -1,18 +1,15 @@
+import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar/NavBar.js'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
+import NavBar from './components/NavBar.jsx'
+import ItemListContainer from './components/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer.jsx';
 
-function App(props) {
+export default function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <ItemListContainer>
-      </ItemListContainer>
-      <ItemDetailContainer/>
-      </div>
-
+    <>
+      <NavBar />
+      <ItemListContainer />
+      <ItemDetailContainer id={3} />
+    </>
   );
 }
-
-export default App;
